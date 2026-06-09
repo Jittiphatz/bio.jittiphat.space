@@ -48,8 +48,8 @@ export default function Home() {
           <Image
             src="/img.png"
             alt="Logo"
-            width={130}
-            height={130}
+            width={140}
+            height={140}
             className="rounded-full object-cover aspect-square border-[2px] border-solid border-[white] p-[2px] [transition:0.3s] hover:border-[black]"
           />
         </div>
@@ -68,13 +68,13 @@ export default function Home() {
               <InteractiveHoverButton className="mt-2 w-full max-w-xs min-w-[220px]">My Projects</InteractiveHoverButton>
             </Link>
             <Link href={"/link"}>
-              <InteractiveHoverButton className="mt-2 w-full max-w-xs min-w-[220px]">My Link</InteractiveHoverButton>
+              <InteractiveHoverButton className="mt-2 w-full max-w-xs min-w-[220px]">My Links</InteractiveHoverButton>
             </Link>
             <Link href={"/social"}>
               <InteractiveHoverButton className="mt-2 w-full max-w-xs min-w-[220px]">My Social</InteractiveHoverButton>
             </Link>
-            <Link href={"/accessory"}>
-              <InteractiveHoverButton className="mt-2 w-full max-w-xs min-w-[220px]">My Accessory</InteractiveHoverButton>
+            <Link href={"/my-device"}>
+              <InteractiveHoverButton className="mt-2 w-full max-w-xs min-w-[220px]">My Devices</InteractiveHoverButton>
             </Link>
 
             <Link href={"https://ezdn.app/MANNEZ"} target="_blank" rel="noopener noreferrer">

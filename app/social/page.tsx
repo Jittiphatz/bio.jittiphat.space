@@ -51,8 +51,8 @@ export default function Social() {
                     <Image
                         src="/img.png"
                         alt="Logo"
-                        width={130}
-                        height={130}
+                        width={140}
+                        height={140}
                         className="rounded-full object-cover aspect-square border-[2px] border-solid border-[white] p-[2px] [transition:0.3s] hover:border-[black]"
                     />
                 </div>
@@ -78,7 +78,7 @@ export default function Social() {
                             </RainbowButton>
                         </Link>
                         <Link
-                            href={"https://www.instagram.com/mannez_xyz/"}
+                            href={"https://www.instagram.com/jzxsddb/"}
                             target="_blank"
                             rel="noopener noreferrer"
                         >

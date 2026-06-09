@@ -47,8 +47,8 @@ export default function Accessory() {
                     <Image
                         src="/img.png"
                         alt="Logo"
-                        width={130}
-                        height={130}
+                        width={140}
+                        height={140}
                         className="rounded-full object-cover aspect-square border-[2px] border-solid border-[white] p-[2px] [transition:0.3s] hover:border-[black]"
                     />
                 </div>
@@ -57,19 +57,19 @@ export default function Accessory() {
                 <div className="w-full max-w-80 md:max-w-md h-full rounded-4xl bg-slate-300/10 backdrop-blur-lg p-4 md:p-6 mt-4">
                     <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
                     <div className="flex flex-col items-center text-center">
-                        <Link href={"https://www.nubwo.co.th/%e0%b8%84%e0%b8%b5%e0%b8%a2%e0%b9%8c%e0%b8%9a%e0%b8%ad%e0%b8%a3%e0%b9%8c%e0%b8%94%e0%b9%80%e0%b8%81%e0%b8%a1%e0%b8%a1%e0%b8%b4%e0%b9%88%e0%b8%87-%e0%b8%a3%e0%b8%b8%e0%b9%88%e0%b8%99-x62/"} target="_blank" rel="noopener noreferrer">
-                            <RainbowButton className="mt-4 w-full h-20 max-w-xs min-w-[250px] flex items-center justify-center hover:text-purple-500">
-                                Keyboard Nubwo x62 Rhiannon Blue Switch
+                        <Link href={"https://support.apple.com/en-us/122209"} target="_blank" rel="noopener noreferrer">
+                            <RainbowButton className="mt-4 w-full h-20 max-w-xs min-w-[250px] flex items-center justify-center hover:text-[#6c6c6c]">
+                                Laptop : MacBook Air 13&quot; M4 (2025) | MacOS Tahoe
                             </RainbowButton>
                         </Link>
-                        <Link href={"https://www.nubwo.co.th/cerberus-nm-92m/"} target="_blank" rel="noopener noreferrer">
-                            <RainbowButton className="mt-2 w-full max-w-xs min-w-[220px] md:min-w-[320px] flex items-center justify-center hover:text-purple-700">
-                                Mouse Nubwo NM-92M Macro
+                        <Link href={"https://notebookspec.com/pc-desktop/535-acer-aspire-tc-1660-1014g1t0mit002.html"} target="_blank" rel="noopener noreferrer">
+                            <RainbowButton className="mt-2 w-full max-w-xs min-w-[220px] md:min-w-[320px] flex items-center justify-center hover:text-[#83B81A]">
+                                PC : Acer Aspire TC-1660
                             </RainbowButton>
                         </Link>
-                        <Link href={"https://www.samsung.com/th/smartphones/galaxy-a/galaxy-a24-black-128gb-sm-a245fzkvthl/"} target="_blank" rel="noopener noreferrer">
-                            <RainbowButton className="mt-2 w-full max-w-xs min-w-[285px] md:min-w-[320px] flex items-center justify-center hover:text-[#1428A0]">
-                                Samsung Galaxy A24
+                        <Link href={"https://support.apple.com/en-us/111872"} target="_blank" rel="noopener noreferrer">
+                            <RainbowButton className="mt-2 w-full max-w-xs min-w-[285px] md:min-w-[320px] flex items-center justify-center hover:text-[#6c6c6c]">
+                                Phone : iPhone 13
                             </RainbowButton>
                         </Link>
                         <Link href={"/"}>
