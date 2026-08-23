@@ -61,16 +61,16 @@ export default function Project() {
                 <div className="w-full max-w-sm md:max-w-md h-full rounded-4xl bg-slate-300/10 backdrop-blur-lg p-4 md:p-5 mt-4">
                     <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
                     <div className="flex flex-col items-center text-center">
-                        <Link href={"https://jittiphat.space"} target="_blank" rel="noopener noreferrer">
+                        <Link href={"https://jittiphat.me"} target="_blank" rel="noopener noreferrer">
                             <RainbowButton className="mt-4 w-full max-w-xs min-w-[260]  md:min-w-[260px] hover:text-emerald-500"><Globe className="mr-2"/>Main Website</RainbowButton>
                         </Link>
-                        <Link href={"https://cert.jittiphat.space"} target="_blank" rel="noopener noreferrer">
+                        <Link href={"https://cert.jittiphat.me"} target="_blank" rel="noopener noreferrer">
                             <RainbowButton className="mt-2 w-full max-w-xs min-w-[260] md:min-w-[260px] hover:text-red-500"><Globe className="mr-2"/>Certification Website</RainbowButton>
                         </Link>
-                        <Link href={"https://thai-massage-have-a-nice-day.shop"} target="_blank" rel="noopener noreferrer">
+                        <Link href={"https://thai-massage-web.vercel.app/"} target="_blank" rel="noopener noreferrer">
                             <RainbowButton className="mt-2 w-full max-w-xs min-w-[260]  md:min-w-[260px] hover:text-purple-500"><Globe className="mr-2"/>Thai Massage Website</RainbowButton>
                         </Link>
-                        <Link href={"https://docs.jittiphat.space"} target="_blank" rel="noopener noreferrer">
+                        <Link href={"https://docs.jittiphat.me"} target="_blank" rel="noopener noreferrer">
                             <RainbowButton className="mt-2 w-full max-w-xs min-w-[260] mb-4 md:min-w-[260px] hover:text-purple-500"><Globe className="mr-2"/>Mori Docs Website</RainbowButton>
                         </Link>
                         <Link href={"/"}>

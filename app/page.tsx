@@ -58,10 +58,10 @@ export default function Home() {
         <div className="w-full max-w-80 md:max-w-md h-full rounded-4xl bg-slate-300/10 backdrop-blur-lg p-4 md:p-6 mt-4">
         <ShineBorder shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
           <div className="flex flex-col items-center text-center">
-            <Link href={"https://jittiphat.space"} target="_blank" rel="noopener noreferrer">
+            <Link href={"https://jittiphat.me"} target="_blank" rel="noopener noreferrer">
               <InteractiveHoverButton className="mt-4 w-full max-w-xs min-w-[220px] text-emerald-500">Main Website</InteractiveHoverButton>
             </Link>
-            <Link href={"https://status.jittiphat.space"} target="_blank" rel="noopener noreferrer">
+            <Link href={"https://status.jittiphat.me"} target="_blank" rel="noopener noreferrer">
               <InteractiveHoverButton className="mt-2 w-full max-w-xs min-w-[220px] text-red-500">Status</InteractiveHoverButton>
             </Link>
             <Link href={"/project"}>

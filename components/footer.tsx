@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => (
     <footer className="w-full py-4 mt-8 flex flex-col items-center text-center text-white text-sm">
         <div className="flex gap-4 mb-2">
-            <Link href="https://github.com/Jittiphatz/bio.jittiphat.space." target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/Jittiphatz/bio.jittiphat.me." target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 hover:text-black transition" />
             </Link>
             <Link href="https://www.facebook.com/Jittiphatz4966" target="_blank" rel="noopener noreferrer">
@@ -13,7 +13,7 @@ const Footer = () => (
             <Link href="https://www.instagram.com/jzxsddb/" target="_blank" rel="noopener noreferrer">
                 <Instagram className="w-5 h-5 hover:text-purple-500 transition" />
             </Link>
-            <Link href="mailto:Jittiphat@jittiphat.space" target="_blank" rel="noopener noreferrer">
+            <Link href="mailto:Jittiphat@jittiphat.me" target="_blank" rel="noopener noreferrer">
                 <Mail className="w-5 h-5 hover:text-red-400 transition" />
             </Link>
         </div>
